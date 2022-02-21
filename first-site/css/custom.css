@@ -1,0 +1,44 @@
+/* Move down content because we have a fixed navbar that is 50 px tall */
+body {
+	padding-bottom: 10px;
+}
+.center {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.jumbotron {
+	background-color: #0BC548;
+	color: #FFFFFF;
+	padding-bottom: 120px;
+	padding-top: 60px;
+}
+.jumbotron h1 {
+	font-family: 'Concert one', courier, serif;
+}
+.btn-lg {
+	font-size: 18px;
+}
+
+@media (max-width: 1199px) {
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+	.btn-lg {
+		font-size: 18px;
+	}
+	.homepage p {
+		font-size: 18px;
+	}
+}
